@@ -11,7 +11,7 @@ public class HelloController {
 	@GetMapping("/welcome")
 	public String welcome()
 	{
-		return "Code is deployed in Code Deploy Again and again";
+		return "hello btc cloud team";
 	}
 
 }
