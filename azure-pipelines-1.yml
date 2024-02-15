@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: LAPTOP-SANTHOSH
+  name: Default/LAPTOP-SANTHOSH
   vmImage: ubuntu-latest
 
 steps:
