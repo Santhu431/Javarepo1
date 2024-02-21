@@ -4,7 +4,7 @@ trigger:
 jobs:
 - job: Build
   pool:
-    name: LAPTOP-SANTHOSH
+    name: Default
     demands:
     - java     # Add any specific demands required by your jobs
     - maven
