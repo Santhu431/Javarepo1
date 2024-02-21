@@ -4,7 +4,7 @@ trigger:
 jobs:
 - job: Build
   pool:
-    name: Default/Santhosh  # Specify the Santhosh agent pool within the Default pool
+    name: Default/LAPTOP-SANTHOSH  # Specify the Santhosh agent pool within the Default pool
 
   steps:
   - task: PowerShell@2
