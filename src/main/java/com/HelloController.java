@@ -11,7 +11,7 @@ public class HelloController {
 	@GetMapping("/welcome")
 	public String welcome()
 	{
-		return "hey this is Santhosh from BTC cloud team";
+		return "hey this is Santhosh from BTC cloud team,how are you guys";
 	}
 
 }
