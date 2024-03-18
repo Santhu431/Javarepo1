@@ -1,0 +1,22 @@
+node {
+    stage('SCM')
+    {
+        git 'https://github.com/Santhu431/Javarepo1.git'
+    }
+    stage('install')
+    {
+     sh 'mvn install'   
+    }
+    stage('test')
+    {
+     sh 'mvn test'  
+    }
+    stage('compile')
+    {
+     sh 'mvn compile'  
+    }
+    stage('package')
+    {
+     sh 'mvn package'   
+    }
+}
