@@ -45,5 +45,6 @@
     				</excludes>
  			 </resource>
 		</resources>
+		<finalName>Java-app</finalName>
 	</build>
 </project>
